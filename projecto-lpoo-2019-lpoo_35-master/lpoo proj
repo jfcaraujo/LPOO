@@ -1,0 +1,32 @@
+                    map(random generated areas(abstract)): random area(actions(forage/mine/chop/fish))
+                    inventory: potions(drink), equipment(pickaxe, axe, fishing rod), ingredients(for crafting)
+                    city: shop(sell using gold), bank, library(learn skills), craftshop(create with items)
+                    interface: display map, attack screen(attack, skill, potions, flee), display options(city buildings,actions), display inventory categories(select categories, ingredients, equipment, weapons/armor)
+a meio          inventory( hashtables of food, potions, ingredients, weapons, armor, equipment using itemQuantity)
+a meio          itemsabstract: potions, weapons(incomplete), armor, equipment, ingredients
+                listofallitems(hashtables<potion>,hashtables<armor>,hashtables<equipment>,hashtables<ingredients>)
+
+                potions(atribute,points,hashtables<Ingredients> recipe)
+                weapon(hashtables<Ingredients> recipe)
+                armor(hashtables<Ingredients> recipe)
+                equipment(type)
+                ingredient()
+
+                potions
+                remove walls?
+                display inventory?
+                createMap(dificulty)?
+                drops
+                pause/display stats
+                crafting
+                equipment
+
+                pattern:
+                factory para fazer o swing
+                state para o hero
+                singleton listofallitems
+
+                testes:
+                verificar se equipar arma muda stats
+                verificar level up
+                verificar dodge chance
