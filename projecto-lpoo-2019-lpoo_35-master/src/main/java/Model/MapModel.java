@@ -19,7 +19,7 @@ public class MapModel {
     public MapModel(int width, int height) {
         this.width = width;
         this.height = height;
-        hero = new Hero(2);
+        hero = new Hero(1);
     }
 
     public int getWidth() {
